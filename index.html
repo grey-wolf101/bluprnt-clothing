@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bluprnt Inc - Premium Clothing & Fashion</title>
+    <title>Bluprnt - Skull Caps, Tees & Hoodies</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
@@ -14,20 +14,18 @@
             <div class="nav-wrapper">
                 <div class="logo">
                     <a href="index.html">
-                        <i class="fas fa-cube"></i> Bluprnt
+                        <i class="fas fa-crown"></i> BLUPRNT
                     </a>
                 </div>
                 
-                <!-- Search Bar -->
                 <div class="search-container">
-                    <input type="text" id="universalSearch" class="search-input" placeholder="Search for products, colors, sizes...">
+                    <input type="text" id="universalSearch" class="search-input" placeholder="Search products...">
                     <button class="search-btn"><i class="fas fa-search"></i></button>
                 </div>
 
                 <ul class="nav-menu">
                     <li><a href="#home" class="nav-link active">Home</a></li>
                     <li><a href="#shop" class="nav-link">Shop</a></li>
-                    <li><a href="#about" class="nav-link">About</a></li>
                     <li><a href="#contact" class="nav-link">Contact</a></li>
                 </ul>
 
@@ -54,38 +52,42 @@
     <!-- Hero Section -->
     <section id="home" class="hero">
         <div class="hero-content">
-            <h1>BLUPRNT</h1>
-            <p>Redefine Your Style</p>
-            <p class="hero-subtitle">Premium clothing for the modern individual</p>
-            <a href="#shop" class="btn btn-primary">Shop Now</a>
+            <h1>Bold Style Starts Here</h1>
+            <p class="hero-subtitle">Skull Caps • T-Shirts • Hoodies</p>
+            <p class="hero-desc">Premium streetwear for those who stand out</p>
+            <a href="#shop" class="btn btn-primary">Explore Now</a>
         </div>
-        <div class="hero-background">
-            <div class="hero-image">
-                <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1200&q=80" alt="Hero">
-            </div>
+        <div class="hero-image">
+            <img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=600&q=80" alt="Premium Streetwear">
         </div>
     </section>
 
     <!-- Shop Section -->
     <section id="shop" class="shop">
         <div class="container">
-            <h2 class="section-title">Our Collection</h2>
+            <div class="shop-header">
+                <h2 class="section-title">Our Collection</h2>
+                <p class="shop-subtitle">Curated essentials for your wardrobe</p>
+            </div>
             
             <div class="shop-wrapper">
-                <!-- Filters Sidebar -->
+                <!-- Compact Filters -->
                 <aside class="filters-sidebar">
                     <div class="filter-header">
-                        <h3>Filters</h3>
-                        <button class="clear-filters">Clear All</button>
+                        <h3>Filter</h3>
+                        <button class="clear-filters">Clear</button>
                     </div>
 
-                    <!-- Category Filter -->
                     <div class="filter-group">
                         <h4 class="filter-title">Category</h4>
                         <div class="filter-options">
                             <label class="filter-checkbox">
                                 <input type="checkbox" data-filter="category" value="all" checked>
                                 <span>All Items</span>
+                            </label>
+                            <label class="filter-checkbox">
+                                <input type="checkbox" data-filter="category" value="skull-cap">
+                                <span>Skull Caps</span>
                             </label>
                             <label class="filter-checkbox">
                                 <input type="checkbox" data-filter="category" value="t-shirt">
@@ -95,117 +97,47 @@
                                 <input type="checkbox" data-filter="category" value="hoodie">
                                 <span>Hoodies</span>
                             </label>
-                            <label class="filter-checkbox">
-                                <input type="checkbox" data-filter="category" value="jacket">
-                                <span>Jackets</span>
-                            </label>
-                            <label class="filter-checkbox">
-                                <input type="checkbox" data-filter="category" value="pants">
-                                <span>Pants</span>
-                            </label>
-                            <label class="filter-checkbox">
-                                <input type="checkbox" data-filter="category" value="shorts">
-                                <span>Shorts</span>
-                            </label>
                         </div>
                     </div>
 
-                    <!-- Color Filter -->
                     <div class="filter-group">
                         <h4 class="filter-title">Color</h4>
                         <div class="filter-options color-options">
                             <label class="filter-color">
                                 <input type="checkbox" data-filter="color" value="black">
                                 <span class="color-swatch" style="background: #000;"></span>
-                                <span>Black</span>
                             </label>
                             <label class="filter-color">
                                 <input type="checkbox" data-filter="color" value="white">
-                                <span class="color-swatch" style="background: #fff; border: 1px solid #ccc;"></span>
-                                <span>White</span>
+                                <span class="color-swatch" style="background: #fff; border: 1px solid #ddd;"></span>
                             </label>
                             <label class="filter-color">
                                 <input type="checkbox" data-filter="color" value="navy">
-                                <span class="color-swatch" style="background: #001f3f;"></span>
-                                <span>Navy</span>
+                                <span class="color-swatch" style="background: #1a3a52;"></span>
                             </label>
                             <label class="filter-color">
                                 <input type="checkbox" data-filter="color" value="gray">
-                                <span class="color-swatch" style="background: #808080;"></span>
-                                <span>Gray</span>
+                                <span class="color-swatch" style="background: #666;"></span>
                             </label>
                             <label class="filter-color">
-                                <input type="checkbox" data-filter="color" value="blue">
-                                <span class="color-swatch" style="background: #0066cc;"></span>
-                                <span>Blue</span>
+                                <input type="checkbox" data-filter="color" value="burgundy">
+                                <span class="color-swatch" style="background: #8b3a3a;"></span>
                             </label>
                             <label class="filter-color">
-                                <input type="checkbox" data-filter="color" value="red">
-                                <span class="color-swatch" style="background: #cc0000;"></span>
-                                <span>Red</span>
+                                <input type="checkbox" data-filter="color" value="olive">
+                                <span class="color-swatch" style="background: #6b7c3a;"></span>
                             </label>
                         </div>
                     </div>
 
-                    <!-- Size Filter -->
                     <div class="filter-group">
-                        <h4 class="filter-title">Size</h4>
-                        <div class="filter-options size-options">
-                            <label class="filter-size">
-                                <input type="checkbox" data-filter="size" value="xs">
-                                <span>XS</span>
-                            </label>
-                            <label class="filter-size">
-                                <input type="checkbox" data-filter="size" value="s">
-                                <span>S</span>
-                            </label>
-                            <label class="filter-size">
-                                <input type="checkbox" data-filter="size" value="m">
-                                <span>M</span>
-                            </label>
-                            <label class="filter-size">
-                                <input type="checkbox" data-filter="size" value="l">
-                                <span>L</span>
-                            </label>
-                            <label class="filter-size">
-                                <input type="checkbox" data-filter="size" value="xl">
-                                <span>XL</span>
-                            </label>
-                            <label class="filter-size">
-                                <input type="checkbox" data-filter="size" value="xxl">
-                                <span>XXL</span>
-                            </label>
-                        </div>
-                    </div>
-
-                    <!-- Price Filter -->
-                    <div class="filter-group">
-                        <h4 class="filter-title">Price Range</h4>
+                        <h4 class="filter-title">Price</h4>
                         <div class="price-range">
-                            <input type="range" id="priceRange" min="0" max="200" value="200" class="slider">
+                            <input type="range" id="priceRange" min="0" max="150" value="150" class="slider">
                             <div class="price-display">
                                 <span>$0</span>
-                                <span>$<span id="priceValue">200</span></span>
+                                <span>$<span id="priceValue">150</span></span>
                             </div>
-                        </div>
-                    </div>
-
-                    <!-- Availability Filter -->
-                    <div class="filter-group">
-                        <h4 class="filter-title">Availability</h4>
-                        <div class="filter-options">
-                            <label class="filter-checkbox">
-                                <input type="checkbox" data-filter="availability" value="all" checked>
-                                <span>All Items</span>
-                            </label>
-                            <label class="filter-checkbox">
-                                <input type="checkbox" data-filter="availability" value="in-stock">
-                                <span>In Stock</span>
-                            </label>
-                            <label class="filter-checkbox">
-                                <input type="checkbox" data-filter="availability" value="out-of-stock">
-                                <span>Out of Stock</span>
-                            </label>
                         </div>
                     </div>
                 </aside>
@@ -225,49 +157,13 @@
                     </div>
 
                     <div class="products-grid" id="productsGrid">
-                        <!-- Products will be loaded here by JavaScript -->
+                        <!-- Products loaded here -->
                     </div>
 
                     <div id="noResults" class="no-results" style="display: none;">
                         <i class="fas fa-search"></i>
-                        <h3>No products found</h3>
-                        <p>Try adjusting your filters or search criteria</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- About Section -->
-    <section id="about" class="about">
-        <div class="container">
-            <h2 class="section-title">About Bluprnt</h2>
-            <div class="about-content">
-                <div class="about-text">
-                    <p>At Bluprnt Inc, we believe that clothing is more than just fabric—it's a blueprint of your personality, style, and vision for the world.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. We're committed to delivering premium quality clothing that combines comfort, style, and affordability.</p>
-                    <p>Our collection is carefully curated to reflect the latest trends while maintaining timeless appeal. Every piece in our collection is designed with attention to detail and crafted with the finest materials.</p>
-                </div>
-                <div class="about-features">
-                    <div class="feature-card">
-                        <i class="fas fa-shipping-fast"></i>
-                        <h3>Free Shipping</h3>
-                        <p>On orders over $50</p>
-                    </div>
-                    <div class="feature-card">
-                        <i class="fas fa-shield-alt"></i>
-                        <h3>Secure Payment</h3>
-                        <p>100% safe transactions</p>
-                    </div>
-                    <div class="feature-card">
-                        <i class="fas fa-undo"></i>
-                        <h3>Easy Returns</h3>
-                        <p>30-day return policy</p>
-                    </div>
-                    <div class="feature-card">
-                        <i class="fas fa-headset"></i>
-                        <h3>24/7 Support</h3>
-                        <p>Dedicated customer service</p>
+                        <h3>No items found</h3>
+                        <p>Try adjusting your filters</p>
                     </div>
                 </div>
             </div>
@@ -281,10 +177,10 @@
             <div class="contact-wrapper">
                 <div class="contact-info">
                     <div class="info-item">
-                        <i class="fas fa-map-marker-alt"></i>
+                        <i class="fas fa-envelope"></i>
                         <div>
-                            <h3>Location</h3>
-                            <p>123 Fashion Street, New York, NY 10001</p>
+                            <h3>Email</h3>
+                            <p>hello@bluprnt.com</p>
                         </div>
                     </div>
                     <div class="info-item">
@@ -294,19 +190,12 @@
                             <p>+1 (555) 123-4567</p>
                         </div>
                     </div>
-                    <div class="info-item">
-                        <i class="fas fa-envelope"></i>
-                        <div>
-                            <h3>Email</h3>
-                            <p>hello@bluprnt.com</p>
-                        </div>
-                    </div>
                 </div>
                 <form class="contact-form">
                     <input type="text" placeholder="Your Name" required>
                     <input type="email" placeholder="Your Email" required>
-                    <textarea placeholder="Your Message" rows="5" required></textarea>
-                    <button type="submit" class="btn btn-primary">Send Message</button>
+                    <textarea placeholder="Your Message" rows="4" required></textarea>
+                    <button type="submit" class="btn btn-primary">Send</button>
                 </form>
             </div>
         </div>
@@ -317,44 +206,27 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-section">
-                    <h3>Bluprnt Inc</h3>
-                    <p>Your blueprint for style and comfort</p>
+                    <h3>Bluprnt</h3>
+                    <p>Premium streetwear for bold individuals</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#shop">Shop</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
                     <div class="social-links">
-                        <a href="#"><i class="fab fa-facebook"></i></a>
                         <a href="#"><i class="fab fa-instagram"></i></a>
                         <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
                     </div>
-                </div>
-                <div class="footer-section">
-                    <h4>Shop</h4>
-                    <ul>
-                        <li><a href="#">New Arrivals</a></li>
-                        <li><a href="#">Best Sellers</a></li>
-                        <li><a href="#">Sale</a></li>
-                        <li><a href="#">Clearance</a></li>
-                    </ul>
-                </div>
-                <div class="footer-section">
-                    <h4>Support</h4>
-                    <ul>
-                        <li><a href="#">Contact Us</a></li>
-                        <li><a href="#">Shipping Info</a></li>
-                        <li><a href="#">Returns</a></li>
-                        <li><a href="#">FAQ</a></li>
-                    </ul>
-                </div>
-                <div class="footer-section">
-                    <h4>Legal</h4>
-                    <ul>
-                        <li><a href="#">Privacy Policy</a></li>
-                        <li><a href="#">Terms of Service</a></li>
-                        <li><a href="#">Cookie Policy</a></li>
-                    </ul>
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2024 Bluprnt Inc. All rights reserved.</p>
+                <p>&copy; 2024 Bluprnt. All rights reserved.</p>
             </div>
         </div>
     </footer>
@@ -370,14 +242,8 @@
                 <div class="modal-details">
                     <h2 id="modalTitle">Product Title</h2>
                     <div class="modal-rating">
-                        <div class="stars">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star-half-alt"></i>
-                        </div>
-                        <span class="rating-count">(248 reviews)</span>
+                        <div class="stars"></div>
+                        <span class="rating-count"></span>
                     </div>
                     <div class="modal-price">
                         <span id="modalPrice">$0.00</span>
@@ -386,10 +252,6 @@
                     <p id="modalDescription">Product description</p>
                     
                     <div class="modal-options">
-                        <div class="option-group">
-                            <label>Color:</label>
-                            <div class="color-selector" id="colorSelector"></div>
-                        </div>
                         <div class="option-group">
                             <label>Size:</label>
                             <div class="size-selector" id="sizeSelector"></div>
@@ -409,7 +271,7 @@
                     <div class="modal-actions">
                         <button id="addToCartBtn" class="btn btn-primary">Add to Cart</button>
                         <button id="addToWishlistBtn" class="btn btn-secondary">
-                            <i class="fas fa-heart"></i> Wishlist
+                            <i class="fas fa-heart"></i>
                         </button>
                     </div>
                 </div>
@@ -420,7 +282,7 @@
     <!-- Cart Sidebar -->
     <div id="cartSidebar" class="cart-sidebar">
         <div class="cart-header">
-            <h2>Shopping Cart</h2>
+            <h2>Cart</h2>
             <button class="close-cart">&times;</button>
         </div>
         <div class="cart-items" id="cartItems"></div>
@@ -441,7 +303,6 @@
         </div>
     </div>
 
-    <!-- Cart Overlay -->
     <div id="cartOverlay" class="overlay"></div>
 
     <script src="script.js"></script>

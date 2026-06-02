@@ -1,20 +1,19 @@
 // Product Database
 const products = [
-    { id: 1, name: 'Classic Crew Neck T-Shirt', category: 't-shirt', color: 'black', size: ['xs', 's', 'm', 'l', 'xl', 'xxl'], price: 29.99, oldPrice: 39.99, image: 'https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=500&q=80', description: 'Premium quality classic t-shirt in timeless black. Perfect for everyday wear.', rating: 4.5, reviews: 248, stock: 15, badge: 'sale' },
-    { id: 2, name: 'Premium Hoodie', category: 'hoodie', color: 'navy', size: ['s', 'm', 'l', 'xl'], price: 59.99, oldPrice: 79.99, image: 'https://images.unsplash.com/photo-1556821552-ec38bc1e9dc3?w=500&q=80', description: 'Comfortable and stylish navy hoodie with premium fabric.', rating: 4.8, reviews: 356, stock: 22, badge: 'new' },
-    { id: 3, name: 'Modern Graphic Tee', category: 't-shirt', color: 'white', size: ['m', 'l', 'xl'], price: 34.99, image: 'https://images.unsplash.com/photo-1503341455253-b2e723bb12dd?w=500&q=80', description: 'Modern graphic design on premium white t-shirt.', rating: 4.3, reviews: 189, stock: 8, badge: null },
-    { id: 4, name: 'Slim Fit Jacket', category: 'jacket', color: 'black', size: ['s', 'm', 'l', 'xl', 'xxl'], price: 89.99, image: 'https://images.unsplash.com/photo-1551028719-00167b16ebc5?w=500&q=80', description: 'Sleek black slim fit jacket for a modern look.', rating: 4.6, reviews: 412, stock: 5, badge: null },
-    { id: 5, name: 'Casual Chino Pants', category: 'pants', color: 'gray', size: ['28', '30', '32', '34', '36', '38'], price: 49.99, oldPrice: 69.99, image: 'https://images.unsplash.com/photo-1542272604-787c62d465d1?w=500&q=80', description: 'Comfortable casual chino pants in neutral gray.', rating: 4.4, reviews: 201, stock: 18, badge: 'sale' },
-    { id: 6, name: 'Athletic Shorts', category: 'shorts', color: 'blue', size: ['xs', 's', 'm', 'l', 'xl'], price: 39.99, image: 'https://images.unsplash.com/photo-1549887534-7eeb1d757f2b?w=500&q=80', description: 'High-performance athletic shorts for active lifestyle.', rating: 4.5, reviews: 167, stock: 20, badge: null },
-    { id: 7, name: 'Oversized Sweatshirt', category: 'hoodie', color: 'gray', size: ['s', 'm', 'l', 'xl', 'xxl'], price: 54.99, image: 'https://images.unsplash.com/photo-1556821552-ec38bc1e9dc3?w=500&q=80', description: 'Cozy oversized gray sweatshirt for comfort.', rating: 4.7, reviews: 289, stock: 12, badge: 'new' },
-    { id: 8, name: 'V-Neck T-Shirt', category: 't-shirt', color: 'red', size: ['xs', 's', 'm', 'l', 'xl'], price: 24.99, oldPrice: 34.99, image: 'https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=500&q=80', description: 'Elegant red v-neck t-shirt for casual elegance.', rating: 4.2, reviews: 145, stock: 0, badge: 'sale' },
-    { id: 9, name: 'Denim Jacket', category: 'jacket', color: 'blue', size: ['s', 'm', 'l', 'xl'], price: 79.99, image: 'https://images.unsplash.com/photo-1551028719-00167b16ebc5?w=500&q=80', description: 'Classic blue denim jacket that never goes out of style.', rating: 4.6, reviews: 334, stock: 10, badge: null },
-    { id: 10, name: 'Polo Shirt', category: 't-shirt', color: 'white', size: ['s', 'm', 'l', 'xl', 'xxl'], price: 44.99, image: 'https://images.unsplash.com/photo-1503341455253-b2e723bb12dd?w=500&q=80', description: 'Professional white polo shirt for smart casual.', rating: 4.4, reviews: 223, stock: 16, badge: null },
-    { id: 11, name: 'Cargo Pants', category: 'pants', color: 'black', size: ['28', '30', '32', '34', '36'], price: 59.99, image: 'https://images.unsplash.com/photo-1542272604-787c62d465d1?w=500&q=80', description: 'Practical cargo pants with multiple pockets.', rating: 4.3, reviews: 198, stock: 14, badge: null },
-    { id: 12, name: 'Relaxed Fit Hoodie', category: 'hoodie', color: 'white', size: ['m', 'l', 'xl', 'xxl'], price: 64.99, image: 'https://images.unsplash.com/photo-1556821552-ec38bc1e9dc3?w=500&q=80', description: 'Relaxed white hoodie perfect for lounging.', rating: 4.5, reviews: 267, stock: 7, badge: 'new' }
+    { id: 1, name: 'Classic Skull Cap', category: 'skull-cap', color: 'black', size: ['one-size'], price: 24.99, oldPrice: 34.99, image: 'https://images.unsplash.com/photo-1533869173e98f4829b987456fb2e457?w=500&q=80', description: 'Premium wool blend skull cap. Perfect for any season.', rating: 4.8, reviews: 142, stock: 25, badge: 'sale' },
+    { id: 2, name: 'Logo Beanie', category: 'skull-cap', color: 'navy', size: ['one-size'], price: 29.99, image: 'https://images.unsplash.com/photo-1533869173e98f4829b987456fb2e457?w=500&q=80', description: 'Embroidered logo beanie with comfortable fit.', rating: 4.6, reviews: 98, stock: 18, badge: 'new' },
+    { id: 3, name: 'Vintage Tee', category: 't-shirt', color: 'black', size: ['xs', 's', 'm', 'l', 'xl', 'xxl'], price: 19.99, oldPrice: 29.99, image: 'https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=500&q=80', description: 'Comfortable 100% cotton vintage-style t-shirt.', rating: 4.7, reviews: 267, stock: 32, badge: 'sale' },
+    { id: 4, name: 'Graphic Tee', category: 't-shirt', color: 'white', size: ['s', 'm', 'l', 'xl'], price: 22.99, image: 'https://images.unsplash.com/photo-1503341455253-b2e723bb12dd?w=500&q=80', description: 'Bold graphic design on premium white tee.', rating: 4.5, reviews: 156, stock: 20, badge: null },
+    { id: 5, name: 'Premium Hoodie', category: 'hoodie', color: 'black', size: ['xs', 's', 'm', 'l', 'xl', 'xxl'], price: 54.99, oldPrice: 74.99, image: 'https://images.unsplash.com/photo-1556821552-ec38bc1e9dc3?w=500&q=80', description: 'Cozy premium hoodie with kangaroo pocket.', rating: 4.9, reviews: 389, stock: 15, badge: 'sale' },
+    { id: 6, name: 'Zip Hoodie', category: 'hoodie', color: 'gray', size: ['s', 'm', 'l', 'xl', 'xxl'], price: 59.99, image: 'https://images.unsplash.com/photo-1556821552-ec38bc1e9dc3?w=500&q=80', description: 'Versatile zip-up hoodie perfect for layering.', rating: 4.7, reviews: 234, stock: 12, badge: 'new' },
+    { id: 7, name: 'Olive Beanie', category: 'skull-cap', color: 'olive', size: ['one-size'], price: 26.99, image: 'https://images.unsplash.com/photo-1533869173e98f4829b987456fb2e457?w=500&q=80', description: 'Stylish olive green beanie for all seasons.', rating: 4.4, reviews: 87, stock: 22, badge: null },
+    { id: 8, name: 'Burgundy Tee', category: 't-shirt', color: 'burgundy', size: ['xs', 's', 'm', 'l', 'xl'], price: 18.99, image: 'https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=500&q=80', description: 'Rich burgundy color classic t-shirt.', rating: 4.6, reviews: 145, stock: 28, badge: null },
+    { id: 9, name: 'Navy Hoodie', category: 'hoodie', color: 'navy', size: ['m', 'l', 'xl', 'xxl'], price: 55.99, image: 'https://images.unsplash.com/photo-1556821552-ec38bc1e9dc3?w=500&q=80', description: 'Classic navy hoodie for everyday wear.', rating: 4.8, reviews: 312, stock: 9, badge: null },
+    { id: 10, name: 'White Tee', category: 't-shirt', color: 'white', size: ['xs', 's', 'm', 'l', 'xl', 'xxl'], price: 16.99, oldPrice: 24.99, image: 'https://images.unsplash.com/photo-1503341455253-b2e723bb12dd?w=500&q=80', description: 'Essential white t-shirt for every wardrobe.', rating: 4.5, reviews: 198, stock: 40, badge: 'sale' },
+    { id: 11, name: 'Gray Beanie', category: 'skull-cap', color: 'gray', size: ['one-size'], price: 25.99, image: 'https://images.unsplash.com/photo-1533869173e98f4829b987456fb2e457?w=500&q=80', description: 'Neutral gray beanie with soft texture.', rating: 4.7, reviews: 124, stock: 19, badge: null },
+    { id: 12, name: 'Oversized Hoodie', category: 'hoodie', color: 'white', size: ['m', 'l', 'xl', 'xxl'], price: 59.99, oldPrice: 79.99, image: 'https://images.unsplash.com/photo-1556821552-ec38bc1e9dc3?w=500&q=80', description: 'Oversized white hoodie for ultimate comfort.', rating: 4.9, reviews: 267, stock: 11, badge: 'sale' }
 ];
 
-// State Management
 const state = {
     filteredProducts: [...products],
     cart: [],
@@ -22,13 +21,11 @@ const state = {
     filters: {
         category: ['all'],
         color: [],
-        size: [],
-        price: 200,
+        price: 150,
         availability: ['all']
     }
 };
 
-// DOM Elements
 const productsGrid = document.getElementById('productsGrid');
 const productsCount = document.getElementById('productsCount');
 const noResults = document.getElementById('noResults');
@@ -54,7 +51,6 @@ const wishlistBadge = document.querySelector('#wishlistBtn .badge');
 const hamburger = document.querySelector('.hamburger');
 const navMenu = document.querySelector('.nav-menu');
 
-// Event Listeners
 filterCheckboxes.forEach(checkbox => {
     checkbox.addEventListener('change', applyFilters);
 });
@@ -71,65 +67,41 @@ productModal.addEventListener('click', (e) => {
     if (e.target === productModal) closeProductModal();
 });
 
-// Mobile menu toggle
 if (hamburger) {
     hamburger.addEventListener('click', () => {
         navMenu.classList.toggle('active');
     });
 }
 
-// Close mobile menu on link click
 document.querySelectorAll('.nav-link').forEach(link => {
     link.addEventListener('click', () => {
         navMenu.classList.remove('active');
     });
 });
 
-// Initialize
 renderProducts();
 
-// Functions
 function applyFilters() {
-    // Get selected filters
     const categoryCheckboxes = document.querySelectorAll('input[data-filter="category"]:checked');
     const colorCheckboxes = document.querySelectorAll('input[data-filter="color"]:checked');
-    const sizeCheckboxes = document.querySelectorAll('input[data-filter="size"]:checked');
-    const availabilityCheckboxes = document.querySelectorAll('input[data-filter="availability"]:checked');
 
     state.filters.category = Array.from(categoryCheckboxes).map(cb => cb.value);
     state.filters.color = Array.from(colorCheckboxes).map(cb => cb.value);
-    state.filters.size = Array.from(sizeCheckboxes).map(cb => cb.value);
-    state.filters.availability = Array.from(availabilityCheckboxes).map(cb => cb.value);
 
     filterProducts();
 }
 
 function filterProducts() {
     state.filteredProducts = products.filter(product => {
-        // Category filter
         if (!state.filters.category.includes('all')) {
             if (!state.filters.category.includes(product.category)) return false;
         }
 
-        // Color filter
         if (state.filters.color.length > 0) {
             if (!state.filters.color.includes(product.color)) return false;
         }
 
-        // Size filter
-        if (state.filters.size.length > 0) {
-            const hasSize = state.filters.size.some(size => product.size.includes(size));
-            if (!hasSize) return false;
-        }
-
-        // Price filter
         if (product.price > state.filters.price) return false;
-
-        // Availability filter
-        if (!state.filters.availability.includes('all')) {
-            if (state.filters.availability.includes('in-stock') && product.stock === 0) return false;
-            if (state.filters.availability.includes('out-of-stock') && product.stock > 0) return false;
-        }
 
         return true;
     });
@@ -145,21 +117,16 @@ function handlePriceChange() {
 
 function clearAllFilters() {
     filterCheckboxes.forEach(checkbox => {
-        if (checkbox.value === 'all' || (checkbox.dataset.filter === 'availability' && checkbox.value === 'all')) {
-            checkbox.checked = true;
-        } else {
-            checkbox.checked = false;
-        }
+        checkbox.checked = checkbox.value === 'all';
     });
-    priceRange.value = 200;
-    priceValue.textContent = '200';
+    priceRange.value = 150;
+    priceValue.textContent = '150';
     sortBy.value = 'newest';
     universalSearch.value = '';
     state.filters = {
         category: ['all'],
         color: [],
-        size: [],
-        price: 200,
+        price: 150,
         availability: ['all']
     };
     filterProducts();
@@ -198,8 +165,7 @@ function handleSearch() {
         return (
             product.name.toLowerCase().includes(searchTerm) ||
             product.description.toLowerCase().includes(searchTerm) ||
-            product.category.toLowerCase().includes(searchTerm) ||
-            product.color.toLowerCase().includes(searchTerm)
+            product.category.toLowerCase().includes(searchTerm)
         );
     });
 
@@ -222,7 +188,7 @@ function renderProducts() {
         const productCard = document.createElement('div');
         productCard.className = 'product-card';
         
-        const badgeHtml = product.badge ? `<span class="product-badge ${product.badge}">${product.stock === 0 ? 'Out of Stock' : product.badge === 'sale' ? 'Sale' : product.badge === 'new' ? 'New' : ''}</span>` : '';
+        const badgeHtml = product.badge ? `<span class="product-badge ${product.badge}">${product.badge === 'sale' ? 'Sale' : 'New'}</span>` : '';
         const oldPriceHtml = product.oldPrice ? `<span class="old-price">$${product.oldPrice.toFixed(2)}</span>` : '';
         const isWishlisted = state.wishlist.some(item => item.id === product.id);
         
@@ -232,14 +198,10 @@ function renderProducts() {
                 ${badgeHtml}
             </div>
             <div class="product-info">
-                <span class="product-category">${product.category}</span>
                 <h3 class="product-name">${product.name}</h3>
-                <p class="product-description">${product.description.substring(0, 80)}...</p>
+                <p class="product-description">${product.description}</p>
                 <div class="product-rating">
-                    <div class="stars">
-                        ${'<i class="fas fa-star"></i>'.repeat(Math.floor(product.rating))}
-                        ${product.rating % 1 !== 0 ? '<i class="fas fa-star-half-alt"></i>' : ''}
-                    </div>
+                    <div class="stars">${'★'.repeat(Math.floor(product.rating))}</div>
                     <span class="rating-count">(${product.reviews})</span>
                 </div>
                 <div class="product-footer">
@@ -273,6 +235,9 @@ function openProductModal(product) {
     document.getElementById('modalOldPrice').textContent = product.oldPrice ? `$${product.oldPrice.toFixed(2)}` : '';
     document.getElementById('modalDescription').textContent = product.description;
     
+    document.querySelector('.stars').textContent = '★'.repeat(Math.floor(product.rating));
+    document.querySelector('.rating-count').textContent = `(${product.reviews} reviews)`;
+    
     const stockStatus = document.getElementById('stockStatus');
     if (isInStock) {
         stockStatus.className = 'stock-status in-stock';
@@ -282,16 +247,6 @@ function openProductModal(product) {
         stockStatus.textContent = '✗ Out of Stock';
     }
 
-    // Color selector
-    const colorSelector = document.getElementById('colorSelector');
-    colorSelector.innerHTML = '';
-    const colorOption = document.createElement('div');
-    colorOption.className = 'color-option selected';
-    colorOption.style.backgroundColor = getColorCode(product.color);
-    colorOption.title = product.color;
-    colorSelector.appendChild(colorOption);
-
-    // Size selector
     const sizeSelector = document.getElementById('sizeSelector');
     sizeSelector.innerHTML = '';
     product.size.forEach(size => {
@@ -301,10 +256,8 @@ function openProductModal(product) {
         sizeSelector.appendChild(sizeOption);
     });
 
-    // Quantity
     document.getElementById('qtyInput').value = '1';
 
-    // Quantity controls
     document.getElementById('qtyPlus').onclick = () => {
         document.getElementById('qtyInput').value = parseInt(document.getElementById('qtyInput').value) + 1;
     };
@@ -315,14 +268,12 @@ function openProductModal(product) {
         }
     };
 
-    // Add to cart button
     document.getElementById('addToCartBtn').onclick = () => {
         const qty = parseInt(document.getElementById('qtyInput').value);
         addToCart(product, qty);
         closeProductModal();
     };
 
-    // Toggle button state based on stock
     document.getElementById('addToCartBtn').disabled = !isInStock;
     document.getElementById('addToCartBtn').style.opacity = isInStock ? '1' : '0.5';
 
@@ -333,28 +284,13 @@ function closeProductModal() {
     productModal.classList.remove('active');
 }
 
-function getColorCode(colorName) {
-    const colors = {
-        'black': '#000',
-        'white': '#fff',
-        'navy': '#001f3f',
-        'gray': '#808080',
-        'blue': '#0066cc',
-        'red': '#cc0000'
-    };
-    return colors[colorName] || '#000';
-}
-
 function addToCart(product, quantity) {
     const existingItem = state.cart.find(item => item.id === product.id);
     
     if (existingItem) {
         existingItem.quantity += quantity;
     } else {
-        state.cart.push({
-            ...product,
-            quantity: quantity
-        });
+        state.cart.push({ ...product, quantity: quantity });
     }
     
     updateCart();
@@ -376,7 +312,7 @@ function renderCartItems() {
     cartItems.innerHTML = '';
     
     if (state.cart.length === 0) {
-        cartItems.innerHTML = '<p style="text-align: center; padding: 2rem; color: var(--light-text);">Your cart is empty</p>';
+        cartItems.innerHTML = '<p style="text-align: center; padding: 2rem; color: #999;">Your cart is empty</p>';
         return;
     }
 
@@ -439,10 +375,10 @@ function showNotification(message) {
         position: fixed;
         top: 20px;
         right: 20px;
-        background: var(--secondary-color);
+        background: #ff6b6b;
         color: white;
         padding: 1rem 2rem;
-        border-radius: 10px;
+        border-radius: 8px;
         font-weight: 600;
         z-index: 300;
         animation: slideInRight 0.3s ease-out;
@@ -456,43 +392,28 @@ function showNotification(message) {
     }, 2000);
 }
 
-// Contact Form Handler
 const contactForm = document.querySelector('.contact-form');
 if (contactForm) {
     contactForm.addEventListener('submit', (e) => {
         e.preventDefault();
-        showNotification('Thank you! We will contact you soon.');
+        showNotification('Thanks! We\'ll be in touch soon.');
         contactForm.reset();
     });
 }
 
-// Add animations
 const style = document.createElement('style');
 style.textContent = `
     @keyframes slideInRight {
-        from {
-            transform: translateX(100px);
-            opacity: 0;
-        }
-        to {
-            transform: translateX(0);
-            opacity: 1;
-        }
+        from { transform: translateX(100px); opacity: 0; }
+        to { transform: translateX(0); opacity: 1; }
     }
     @keyframes slideOutRight {
-        from {
-            transform: translateX(0);
-            opacity: 1;
-        }
-        to {
-            transform: translateX(100px);
-            opacity: 0;
-        }
+        from { transform: translateX(0); opacity: 1; }
+        to { transform: translateX(100px); opacity: 0; }
     }
 `;
 document.head.appendChild(style);
 
-// Smooth scroll for nav links
 const navLinks = document.querySelectorAll('.nav-link');
 navLinks.forEach(link => {
     link.addEventListener('click', (e) => {
@@ -516,5 +437,3 @@ window.addEventListener('scroll', () => {
         }
     });
 });
-
-console.log('Bluprnt Inc - Modern Clothing Store Loaded Successfully!');
