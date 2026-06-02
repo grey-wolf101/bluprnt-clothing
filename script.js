@@ -1,17 +1,17 @@
 // Product Database
 const products = [
-    { id: 1, name: 'Classic Crew Neck T-Shirt', category: 't-shirt', color: 'black', size: ['xs', 's', 'm', 'l', 'xl', 'xxl'], price: 29.99, oldPrice: 39.99, image: 'https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=500&q=80', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Premium quality cotton blend fabric.', rating: 4.5, reviews: 248, stock: 15, badge: 'sale' },
-    { id: 2, name: 'Premium Hoodie', category: 'hoodie', color: 'navy', size: ['s', 'm', 'l', 'xl'], price: 59.99, oldPrice: 79.99, image: 'https://images.unsplash.com/photo-1556821552-ec38bc1e9dc3?w=500&q=80', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Warm and comfortable hoodie perfect for any season.', rating: 4.8, reviews: 512, stock: 8, badge: 'sale' },
-    { id: 3, name: 'Modern Graphic Tee', category: 't-shirt', color: 'white', size: ['m', 'l', 'xl'], price: 34.99, image: 'https://images.unsplash.com/photo-1503341455253-b2e723bb12dd?w=500&q=80', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Stylish graphic design on premium fabric.', rating: 4.3, reviews: 156, stock: 22, badge: 'new' },
-    { id: 4, name: 'Slim Fit Jacket', category: 'jacket', color: 'black', size: ['s', 'm', 'l', 'xl', 'xxl'], price: 89.99, image: 'https://images.unsplash.com/photo-1551028719-00167b16ebc5?w=500&q=80', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elegant jacket for any occasion.', rating: 4.6, reviews: 324, stock: 5, badge: null },
-    { id: 5, name: 'Casual Chino Pants', category: 'pants', color: 'gray', size: ['28', '30', '32', '34', '36', '38'], price: 49.99, oldPrice: 69.99, image: 'https://images.unsplash.com/photo-1542272604-787c62d465d1?w=500&q=80', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Perfect for casual and professional settings.', rating: 4.4, reviews: 189, stock: 18, badge: 'sale' },
-    { id: 6, name: 'Athletic Shorts', category: 'shorts', color: 'blue', size: ['xs', 's', 'm', 'l', 'xl'], price: 39.99, image: 'https://images.unsplash.com/photo-1549887534-7eeb1d757f2b?w=500&q=80', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Breathable shorts for active lifestyle.', rating: 4.7, reviews: 267, stock: 0, badge: 'stock' },
-    { id: 7, name: 'Oversized Sweatshirt', category: 'hoodie', color: 'gray', size: ['s', 'm', 'l', 'xl', 'xxl'], price: 54.99, image: 'https://images.unsplash.com/photo-1556821552-ec38bc1e9dc3?w=500&q=80', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Comfortable and stylish oversized fit.', rating: 4.5, reviews: 134, stock: 12, badge: null },
-    { id: 8, name: 'V-Neck T-Shirt', category: 't-shirt', color: 'red', size: ['xs', 's', 'm', 'l', 'xl'], price: 24.99, oldPrice: 34.99, image: 'https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=500&q=80', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Classic v-neck style in vibrant colors.', rating: 4.2, reviews: 98, stock: 20, badge: 'sale' },
-    { id: 9, name: 'Denim Jacket', category: 'jacket', color: 'blue', size: ['s', 'm', 'l', 'xl'], price: 79.99, image: 'https://images.unsplash.com/photo-1551028719-00167b16ebc5?w=500&q=80', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Timeless denim jacket for any wardrobe.', rating: 4.6, reviews: 278, stock: 9, badge: null },
-    { id: 10, name: 'Polo Shirt', category: 't-shirt', color: 'white', size: ['s', 'm', 'l', 'xl', 'xxl'], price: 44.99, image: 'https://images.unsplash.com/photo-1503341455253-b2e723bb12dd?w=500&q=80', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Professional and casual polo shirt.', rating: 4.4, reviews: 156, stock: 16, badge: null },
-    { id: 11, name: 'Cargo Pants', category: 'pants', color: 'black', size: ['28', '30', '32', '34', '36'], price: 59.99, image: 'https://images.unsplash.com/photo-1542272604-787c62d465d1?w=500&q=80', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Practical cargo pants with multiple pockets.', rating: 4.3, reviews: 112, stock: 7, badge: null },
-    { id: 12, name: 'Relaxed Fit Hoodie', category: 'hoodie', color: 'white', size: ['m', 'l', 'xl', 'xxl'], price: 64.99, image: 'https://images.unsplash.com/photo-1556821552-ec38bc1e9dc3?w=500&q=80', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Relaxed fit hoodie for ultimate comfort.', rating: 4.7, reviews: 203, stock: 11, badge: 'new' },
+    { id: 1, name: 'Classic Crew Neck T-Shirt', category: 't-shirt', color: 'black', size: ['xs', 's', 'm', 'l', 'xl', 'xxl'], price: 29.99, oldPrice: 39.99, image: 'https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=500&q=80', description: 'Premium quality classic t-shirt in timeless black. Perfect for everyday wear.', rating: 4.5, reviews: 248, stock: 15, badge: 'sale' },
+    { id: 2, name: 'Premium Hoodie', category: 'hoodie', color: 'navy', size: ['s', 'm', 'l', 'xl'], price: 59.99, oldPrice: 79.99, image: 'https://images.unsplash.com/photo-1556821552-ec38bc1e9dc3?w=500&q=80', description: 'Comfortable and stylish navy hoodie with premium fabric.', rating: 4.8, reviews: 356, stock: 22, badge: 'new' },
+    { id: 3, name: 'Modern Graphic Tee', category: 't-shirt', color: 'white', size: ['m', 'l', 'xl'], price: 34.99, image: 'https://images.unsplash.com/photo-1503341455253-b2e723bb12dd?w=500&q=80', description: 'Modern graphic design on premium white t-shirt.', rating: 4.3, reviews: 189, stock: 8, badge: null },
+    { id: 4, name: 'Slim Fit Jacket', category: 'jacket', color: 'black', size: ['s', 'm', 'l', 'xl', 'xxl'], price: 89.99, image: 'https://images.unsplash.com/photo-1551028719-00167b16ebc5?w=500&q=80', description: 'Sleek black slim fit jacket for a modern look.', rating: 4.6, reviews: 412, stock: 5, badge: null },
+    { id: 5, name: 'Casual Chino Pants', category: 'pants', color: 'gray', size: ['28', '30', '32', '34', '36', '38'], price: 49.99, oldPrice: 69.99, image: 'https://images.unsplash.com/photo-1542272604-787c62d465d1?w=500&q=80', description: 'Comfortable casual chino pants in neutral gray.', rating: 4.4, reviews: 201, stock: 18, badge: 'sale' },
+    { id: 6, name: 'Athletic Shorts', category: 'shorts', color: 'blue', size: ['xs', 's', 'm', 'l', 'xl'], price: 39.99, image: 'https://images.unsplash.com/photo-1549887534-7eeb1d757f2b?w=500&q=80', description: 'High-performance athletic shorts for active lifestyle.', rating: 4.5, reviews: 167, stock: 20, badge: null },
+    { id: 7, name: 'Oversized Sweatshirt', category: 'hoodie', color: 'gray', size: ['s', 'm', 'l', 'xl', 'xxl'], price: 54.99, image: 'https://images.unsplash.com/photo-1556821552-ec38bc1e9dc3?w=500&q=80', description: 'Cozy oversized gray sweatshirt for comfort.', rating: 4.7, reviews: 289, stock: 12, badge: 'new' },
+    { id: 8, name: 'V-Neck T-Shirt', category: 't-shirt', color: 'red', size: ['xs', 's', 'm', 'l', 'xl'], price: 24.99, oldPrice: 34.99, image: 'https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=500&q=80', description: 'Elegant red v-neck t-shirt for casual elegance.', rating: 4.2, reviews: 145, stock: 0, badge: 'sale' },
+    { id: 9, name: 'Denim Jacket', category: 'jacket', color: 'blue', size: ['s', 'm', 'l', 'xl'], price: 79.99, image: 'https://images.unsplash.com/photo-1551028719-00167b16ebc5?w=500&q=80', description: 'Classic blue denim jacket that never goes out of style.', rating: 4.6, reviews: 334, stock: 10, badge: null },
+    { id: 10, name: 'Polo Shirt', category: 't-shirt', color: 'white', size: ['s', 'm', 'l', 'xl', 'xxl'], price: 44.99, image: 'https://images.unsplash.com/photo-1503341455253-b2e723bb12dd?w=500&q=80', description: 'Professional white polo shirt for smart casual.', rating: 4.4, reviews: 223, stock: 16, badge: null },
+    { id: 11, name: 'Cargo Pants', category: 'pants', color: 'black', size: ['28', '30', '32', '34', '36'], price: 59.99, image: 'https://images.unsplash.com/photo-1542272604-787c62d465d1?w=500&q=80', description: 'Practical cargo pants with multiple pockets.', rating: 4.3, reviews: 198, stock: 14, badge: null },
+    { id: 12, name: 'Relaxed Fit Hoodie', category: 'hoodie', color: 'white', size: ['m', 'l', 'xl', 'xxl'], price: 64.99, image: 'https://images.unsplash.com/photo-1556821552-ec38bc1e9dc3?w=500&q=80', description: 'Relaxed white hoodie perfect for lounging.', rating: 4.5, reviews: 267, stock: 7, badge: 'new' }
 ];
 
 // State Management
@@ -51,6 +51,8 @@ const total = document.getElementById('total');
 const cartBadge = document.querySelector('#cartBtn .badge');
 const wishlistBtn = document.getElementById('wishlistBtn');
 const wishlistBadge = document.querySelector('#wishlistBtn .badge');
+const hamburger = document.querySelector('.hamburger');
+const navMenu = document.querySelector('.nav-menu');
 
 // Event Listeners
 filterCheckboxes.forEach(checkbox => {
@@ -65,6 +67,23 @@ closeModal.addEventListener('click', closeProductModal);
 cartBtn.addEventListener('click', openCart);
 closeCartBtn.addEventListener('click', closeCart);
 cartOverlay.addEventListener('click', closeCart);
+productModal.addEventListener('click', (e) => {
+    if (e.target === productModal) closeProductModal();
+});
+
+// Mobile menu toggle
+if (hamburger) {
+    hamburger.addEventListener('click', () => {
+        navMenu.classList.toggle('active');
+    });
+}
+
+// Close mobile menu on link click
+document.querySelectorAll('.nav-link').forEach(link => {
+    link.addEventListener('click', () => {
+        navMenu.classList.remove('active');
+    });
+});
 
 // Initialize
 renderProducts();
@@ -285,9 +304,21 @@ function openProductModal(product) {
     // Quantity
     document.getElementById('qtyInput').value = '1';
 
+    // Quantity controls
+    document.getElementById('qtyPlus').onclick = () => {
+        document.getElementById('qtyInput').value = parseInt(document.getElementById('qtyInput').value) + 1;
+    };
+    document.getElementById('qtyMinus').onclick = () => {
+        const qty = parseInt(document.getElementById('qtyInput').value);
+        if (qty > 1) {
+            document.getElementById('qtyInput').value = qty - 1;
+        }
+    };
+
     // Add to cart button
     document.getElementById('addToCartBtn').onclick = () => {
-        addToCart(product, 1);
+        const qty = parseInt(document.getElementById('qtyInput').value);
+        addToCart(product, qty);
         closeProductModal();
     };
 
@@ -423,6 +454,16 @@ function showNotification(message) {
         notification.style.animation = 'slideOutRight 0.3s ease-out';
         setTimeout(() => notification.remove(), 300);
     }, 2000);
+}
+
+// Contact Form Handler
+const contactForm = document.querySelector('.contact-form');
+if (contactForm) {
+    contactForm.addEventListener('submit', (e) => {
+        e.preventDefault();
+        showNotification('Thank you! We will contact you soon.');
+        contactForm.reset();
+    });
 }
 
 // Add animations
